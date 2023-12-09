@@ -1,0 +1,13 @@
+BFS(grafico, inicio):
+    Inicializar una cola vacía
+    Crear un conjunto o arreglo para llevar un registro de los nodos visitados
+    Agregar el nodo 'inicio' a la cola y marcarlo como visitado
+
+    Mientras la cola no esté vacía:
+        nodo_actual = desencolar desde el frente de la cola
+        Procesar o imprimir nodo_actual
+
+        Para cada vecino del nodo_actual:
+            Si el vecino no ha sido visitado:
+                Agregar el vecino a la cola
+                Marcar el vecino como visitado
