@@ -14,6 +14,12 @@ def bfs( graph, start):
                     queue.append(neighbor)
 
 graph = {
+        'A': ['B', 'C'],
+        'B': ['A', 'D', 'E'],
+        'C': ['A', 'F'],
+        'D': ['B'],
+        'E': ['B', 'F'],
+        'F': ['C', 'E'],
         }
 
 print("Recorrido BFS empezando desde 'A':")
