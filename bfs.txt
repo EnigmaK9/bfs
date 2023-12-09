@@ -1,0 +1,13 @@
+BFS(graph, start):
+    Initialize an empty queue
+    Create a set or array to keep track of visited nodes
+    Add the start node to the queue and mark it as visited
+
+    while the queue is not empty:
+            current_node = dequeue from the front of the queue
+            Process or print current_node
+
+            for each neighbor of current_node:
+                if neighbor is not visited:
+                    Add neighbor to the queue
+                    Mark neighbor as visited
